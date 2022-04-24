@@ -119,6 +119,7 @@ const View = (props) => {
         text.classList.add('massege');
         text.textContent = 'Ваше сообщение отправлено';
         myForm.appendChild(text)
+        console.log(answer.json())
       } else {
         const myForm = document.querySelector('.form');
         const text = document.createElement('div');
